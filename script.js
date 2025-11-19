@@ -47,7 +47,7 @@ formPublicar.addEventListener("submit", (e) => {
         preview.src,
         0
     )
-    publicacionesData.push(nuevaPublicacionData)
+    publicacionesData.unshift(nuevaPublicacionData)
     
     mostrarPublicaciones(publicacionesData);
 
